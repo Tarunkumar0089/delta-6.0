@@ -10,7 +10,10 @@ while(true){
         console.log("you are right! congrats!");
         break;
     }
-    else{
-     guess=   prompt("your guess was wrong. please try again");
+    else if(guess<random){
+       guess= prompt("your guess was too small.please try again")
     }
+    else {
+        guess= prompt("your guess was too large.please try again")
+     }
 }
