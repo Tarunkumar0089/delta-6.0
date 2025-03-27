@@ -1,0 +1,12 @@
+let newp=document.querySelector("p");
+newp.innerText="Hi! there this is tarun sharma";
+let img=document.querySelector("img");
+img.getAttribute('id');
+img.setAttribute('id','spiderman');
+let div=document.querySelector("div");
+div.classList();
+div.classList.add("abc");
+div.classList.remove("abc");
+div.classList.contains("abc");
+let body=document.querySelector("body");
+body.append(newp);
