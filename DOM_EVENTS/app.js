@@ -12,8 +12,6 @@ btn.addEventListener("click",function() {
    div.style.backgroundColor=randomColor;
    console.log("color updated");
 });
-
-
 function getrandomcolor(){
     let red=Math.floor(Math.random()*255);
     let green=Math.floor(Math.random()*255);
