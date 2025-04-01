@@ -1,6 +1,9 @@
 body{
     text-align: center;
 }
+h1{
+    background-color: #d95980;
+}
 .btn{
     height: 100px;
     width: 100px;
